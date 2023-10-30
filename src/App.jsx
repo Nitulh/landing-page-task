@@ -8,6 +8,7 @@ import About from "./components/about";
 import Feature from "./components/feature";
 // import Cube from "./components/cube";
 import Empty from "./components/empty";
+import Testimonial from "./components/testimonial";
 
 function App() {
   return (
@@ -32,10 +33,11 @@ function App() {
         content="Explore the incredible features of our products."
       /> */}
       <Empty/>
-      <Section
+      <Testimonial/>
+      {/* <Section
         title="Testimonials"
         content="See what our customers have to say about us."
-      />
+      /> */}
       <Section title="Products" content="Browse our wide range of products." />
       <Section title="Pricing" content="Choose a plan that suits your needs." />
       <Section

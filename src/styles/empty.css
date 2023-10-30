@@ -42,7 +42,7 @@
   font-size: 36px;
   margin: 0;
   padding-bottom: 20px;
-  color: rgb(255, 166, 0);
+  color: orange;
 }
 
 .section-header p {
@@ -87,7 +87,7 @@
   position: absolute;
   top: 15px;
   left: 15px;
-  background-color: #2b96f5;
+  background-color: orange;
   color: #fff;
   font-size: 24px;
   border-radius: 50%;
