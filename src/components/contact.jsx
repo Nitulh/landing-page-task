@@ -14,14 +14,16 @@ const Contact = () => {
             <div className="contact-address">
               <i className="bi bi-geo-alt"></i>
               <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <address> xyz, 
+        Dhanmondi, 1207,
+        Bangladesh </address>
             </div>
           </div>
           <div className="col-md-4">
             <div className="contact-phone">
               <i className="bi bi-phone"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <p><a href="tel:+155895548855">+1 1111 11111 11</a></p>
             </div>
           </div>
           <div className="col-md-4">

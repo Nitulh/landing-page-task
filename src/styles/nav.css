@@ -1,4 +1,8 @@
 /* Navigation.css */
+.pointer-cursor {
+  cursor: pointer;
+}
+
 .navbar {
     background: #333;
     color: white;
