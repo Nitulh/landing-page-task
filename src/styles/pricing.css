@@ -15,6 +15,7 @@
 .pricing-section {
     background-color: #f8f9fa;
     padding: 60px 0;
+    padding-bottom:15rem;
     text-align: center;
   }
   
@@ -85,7 +86,7 @@
   }
   
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     .hexa-two{
         position: absolute;
         margin: 30rem 100rem;

@@ -11,6 +11,7 @@ import Empty from "./components/empty";
 import Testimonial from "./components/testimonial";
 import Products from "./components/products";
 import Pricing from "./components/pricing";
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -45,10 +46,11 @@ function App() {
       {/* <Section title="Products" content="Browse our wide range of products." /> */}
       <Pricing />
       {/* <Section title="Pricing" content="Choose a plan that suits your needs." /> */}
-      <Section
+    <Contact/>
+      {/* <Section
         title="Contact Us"
         content="Get in touch with our friendly team."
-      />
+      /> */}
       <Section
         title="Subscribe to Our Newsletter"
         content="Stay updated with our latest news and offers."
