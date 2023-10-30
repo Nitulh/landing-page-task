@@ -10,7 +10,7 @@ const Testimonial = () => {
   return (
     <section id="testimonials" className="testimonial-section">
       <div className="">
-        <h2 className="section-title">Testimonials</h2>
+        <h2 className="section-title-test">Testimonials</h2>
         <Carousel
           showThumbs={false}
           infiniteLoop={true}

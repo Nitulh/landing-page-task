@@ -12,6 +12,8 @@ import Testimonial from "./components/testimonial";
 import Products from "./components/products";
 import Pricing from "./components/pricing";
 import Contact from "./components/contact";
+import Service from "./components/services";
+import CallToAction from "./components/callToAction";
 
 function App() {
   return (
@@ -31,11 +33,12 @@ function App() {
       <About />
       <Feature />
       {/* <Cube/> */}
+    <Empty />
+    <Service/>
       {/* <Section
         title="Features"
         content="Explore the incredible features of our products."
       /> */}
-      <Empty />
       <Testimonial />
       {/* <Section
         title="Testimonials"
@@ -51,10 +54,12 @@ function App() {
         title="Contact Us"
         content="Get in touch with our friendly team."
       /> */}
-      <Section
+
+      <CallToAction/>
+      {/* <Section
         title="Subscribe to Our Newsletter"
         content="Stay updated with our latest news and offers."
-      />
+      /> */}
       <Footer />
     </div>
   );

@@ -2,6 +2,7 @@ import '../styles/products.css';
 import One from "/images/1.avif";
 import Two from "/images/2.avif";
 import Three from "/images/3.avif";
+import { Fade } from 'react-reveal';
 
 const Portfolio = () => {
   // Dummy product data
@@ -85,24 +86,31 @@ const Portfolio = () => {
               key={product.id}
               className={`col-lg-4 col-md-6 portfolio-item filter-${product.category}`}
             >
-              <div className="portfolio-wrap">
-                <figure>
-                  <img src={product.image} className="img-fluid" alt={product.title} />
-                  <a href={product.image} data-lightbox="portfolio" data-title={product.title} className="link-preview">
-                    <i className="bi bi-plus"></i>
-                  </a>
-                  <a href="portfolio-details.html" className="link-details" title="More Details">
-                    <i className="bi bi-link"></i>
-                  </a>
-                </figure>
+              <Fade bottom cascade> {/* Apply the Fade animation */}
+                <div className="portfolio-wrap">
+                  <figure>
+                    <img src={product.image} className="img-fluid" alt={product.title} />
+                    <a
+                      href={product.image}
+                      data-lightbox="portfolio"
+                      data-title={product.title}
+                      className="link-preview"
+                    >
+                      <i className="bi bi-plus"></i>
+                    </a>
+                    <a href="portfolio-details.html" className="link-details" title="More Details">
+                      <i className="bi bi-link"></i>
+                    </a>
+                  </figure>
 
-                <div className="portfolio-info">
-                  <h4>
-                    <a href="portfolio-details.html">{product.title}</a>
-                  </h4>
-                  <p>{product.category}</p>
+                  <div className="portfolio-info">
+                    <h4>
+                      <a href="portfolio-details.html">{product.title}</a>
+                    </h4>
+                    <p>{product.category}</p>
+                  </div>
                 </div>
-              </div>
+              </Fade>
             </div>
           ))}
         </div>

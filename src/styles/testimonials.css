@@ -1,14 +1,14 @@
 /* Testimonials section */
 .testimonial-section {
-    background-color: orange;
+    background-color: #2f2f2f;
     padding: 60px 0;
     text-align: center;
   }
   
-  .section-title {
-    font-size: 36px;
+  .section-title-test {
+    font-size: 34px;
     margin-bottom: 20px;
-    color: #333; /* Title color */
+    color: orange; /* Title color */
   }
   
   /* Testimonial container */
@@ -19,7 +19,7 @@
   
   /* Testimonial item */
   .testimonial {
-    background-color: orange; /* Testimonial background color */
+    background-color: #2f2f2f; /* Testimonial background color */
     padding: 20px;
     border-radius: 5px;
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
@@ -37,9 +37,9 @@
   
   /* Testimonial text */
   .testimonial-text {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 800;
-    color: #333; /* Text color */
+    color: orange; /* Text color */
     margin-bottom: 20px;
   }
   
@@ -48,6 +48,6 @@
     padding-bottom: 15px;
  
     font-size: 16px;
-    color: #232323; /* Author text color */
+    color: orangered; /* Author text color */
   }
   

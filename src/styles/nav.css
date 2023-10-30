@@ -14,6 +14,7 @@
   
   .navbar.open {
     background: #333; /* Change the background color when the menu is open if needed */
+    opacity: .75;
   }
   
   .logo {
