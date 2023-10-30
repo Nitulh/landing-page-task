@@ -9,6 +9,7 @@ import Feature from "./components/feature";
 // import Cube from "./components/cube";
 import Empty from "./components/empty";
 import Testimonial from "./components/testimonial";
+import Products from "./components/products";
 
 function App() {
   return (
@@ -38,7 +39,9 @@ function App() {
         title="Testimonials"
         content="See what our customers have to say about us."
       /> */}
-      <Section title="Products" content="Browse our wide range of products." />
+
+      <Products/>
+      {/* <Section title="Products" content="Browse our wide range of products." /> */}
       <Section title="Pricing" content="Choose a plan that suits your needs." />
       <Section
         title="Contact Us"
