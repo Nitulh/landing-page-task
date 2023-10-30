@@ -1,5 +1,5 @@
 .featured-services {
-  padding: 20px 300px;
+  padding: 20px 10px;
   background-color: #f8f9fa;
   text-align: center;
   background-color: rgb(29, 29, 29);
@@ -65,8 +65,12 @@
   color: orange;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .services-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+  .featured-services {
+    padding: 20px 300px;
   }
 }
