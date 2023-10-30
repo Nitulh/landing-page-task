@@ -1,0 +1,74 @@
+.featured-services {
+    padding: 50px 30px;
+    background-color: #f8f9fa;
+    text-align: center;
+    background-color:rgb(29, 29, 29);
+  }
+  
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .service {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .service:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .box-bg {
+    background-color: orange;
+    color: #fff;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  .icon {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Primary (Orange) Color */
+  .service:hover .title, .service:hover .description {
+    color: orange;
+  
+  }
+  
+  /* Secondary (Black) Color */
+  .box-bg:hover {
+    background-color: #333;
+  }
+  
+  /* Hover effect for icon color */
+  .service:hover .icon {
+    color: orange;
+   
+  }
+  
+  @media (min-width: 768px) {
+    .services-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }

@@ -1,0 +1,103 @@
+/* Define the orange and black color scheme */
+.cube {
+    background-color: black;
+    color: orange;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Section */
+  .headercube {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+  }
+  
+  .header h2 {
+    font-size: 20px;
+  }
+  
+  .cta-button {
+    background-color: orange;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .herocube {
+    text-align: center;
+  }
+  
+  .herocube img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Features/Benefits Section */
+  .features {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .feature-icon {
+    font-size: 48px;
+  }
+  
+  /* Testimonials/Reviews Section */
+  .testimonials {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .testimonial {
+    background-color: orange;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .step {
+    font-size: 24px;
+  }
+  
+  /* Social Proof Section */
+  .social-proof {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* FAQs Section */
+  .faqs {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  /* Contact/CTA Section */
+  .contact {
+    text-align: center;
+    background-color: orange;
+    padding: 40px;
+  }
+  
+  .cta-button-bottom {
+    background-color: black;
+    color: orange;
+  }
+  
