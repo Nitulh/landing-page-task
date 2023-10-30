@@ -10,6 +10,7 @@ import Feature from "./components/feature";
 import Empty from "./components/empty";
 import Testimonial from "./components/testimonial";
 import Products from "./components/products";
+import Pricing from "./components/pricing";
 
 function App() {
   return (
@@ -25,24 +26,25 @@ function App() {
         content="Learn about our company and mission."
       /> */}
       <InfiniteMarq />
-{/* <Empty/> */}
-      <About/>
-      <Feature/>
-     {/* <Cube/> */}
+      {/* <Empty/> */}
+      <About />
+      <Feature />
+      {/* <Cube/> */}
       {/* <Section
         title="Features"
         content="Explore the incredible features of our products."
       /> */}
-      <Empty/>
-      <Testimonial/>
+      <Empty />
+      <Testimonial />
       {/* <Section
         title="Testimonials"
         content="See what our customers have to say about us."
       /> */}
 
-      <Products/>
+      <Products />
       {/* <Section title="Products" content="Browse our wide range of products." /> */}
-      <Section title="Pricing" content="Choose a plan that suits your needs." />
+      <Pricing />
+      {/* <Section title="Pricing" content="Choose a plan that suits your needs." /> */}
       <Section
         title="Contact Us"
         content="Get in touch with our friendly team."
