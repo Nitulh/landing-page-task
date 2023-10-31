@@ -2,9 +2,9 @@ import "./App.css";
 import Navigation from "./components/navigation";
 // import Section from "./components/section";
 import Footer from "./components/footer";
-import InfiniteMarq from "./components/infiniteMarq";
+// import InfiniteMarq from "./components/infiniteMarq";
+// import About from "./components/about";
 import Head from "./components/head";
-import About from "./components/about";
 import Feature from "./components/feature";
 // import Cube from "./components/cube";
 import Empty from "./components/empty";
@@ -15,6 +15,7 @@ import Contact from "./components/contact";
 import Service from "./components/services";
 import CallToAction from "./components/callToAction";
 import { Element } from "react-scroll";
+import Copy from "./components/copy";
 function App() {
   return (
     <div className="App">
@@ -31,54 +32,53 @@ function App() {
         content="Learn about our company and mission."
       /> */}
 
-      <InfiniteMarq />
       {/* <Empty/> */}
 
-      <About />
       <Feature />
       {/* <Cube/> */}
       <Element id="section2">
         <Empty />
       </Element>
       <Element id="section3">
-      <Service />
+        <Service />
       </Element>
       {/* <Section
         title="Features"
         content="Explore the incredible features of our products."
       /> */}
-       <Element id="section4">
-      <Testimonial />
-       </Element>
+      <Element id="section4">
+        <Testimonial />
+      </Element>
       {/* <Section
         title="Testimonials"
         content="See what our customers have to say about us."
       /> */}
- <Element id="section5">
-      <Products />
- </Element>
+      <Element id="section5">
+        <Products />
+      </Element>
       {/* <Section title="Products" content="Browse our wide range of products." /> */}
       <Element id="section6">
-      <Pricing />
+        <Pricing />
       </Element>
       {/* <Section title="Pricing" content="Choose a plan that suits your needs." /> */}
       <Element id="section7">
-      <Contact />
+        <Contact />
       </Element>
       {/* <Section
         title="Contact Us"
         content="Get in touch with our friendly team."
       /> */}
-<Element id="section8">
-      <CallToAction />
-</Element>
+      <Element id="section8">
+        <CallToAction />
+      </Element>
       {/* <Section
         title="Subscribe to Our Newsletter"
         content="Stay updated with our latest news and offers."
       /> */}
       <Element id="section9">
-      <Footer />
+        <Footer />
       </Element>
+      <Copy />
     </div>
   );
 }

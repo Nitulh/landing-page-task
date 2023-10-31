@@ -2,7 +2,7 @@
   padding: 20px 10px;
   background-color: #f8f9fa;
   text-align: center;
-  background-color: rgb(29, 29, 29);
+  background-color: #222;
 }
 
 .services-grid {
@@ -27,19 +27,20 @@
 
 .box-bg {
   background-color: orange;
-  color: #fff;
+  color: #ffffffce;
 }
 
-.title {
+.title-fea a {
   font-size: 24px;
-  margin: 15px 0;
+  margin: 25px 0;
   color: #333;
+  text-decoration: none;
   transition: color 0.2s;
 }
 
 .description {
   font-size: 16px;
-  color: #333;
+  color: #3333338d;
   transition: color 0.2s;
 }
 
@@ -50,7 +51,7 @@
 }
 
 /* Primary (Orange) Color */
-.service:hover .title,
+.service:hover .title-fea a,
 .service:hover .description {
   color: orange;
 }
@@ -68,7 +69,6 @@
 @media (min-width: 1024px) {
   .services-grid {
     grid-template-columns: 1fr 1fr 1fr;
-    
   }
   .featured-services {
     padding: 20px 300px;

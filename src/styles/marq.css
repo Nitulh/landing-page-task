@@ -28,21 +28,20 @@
 }
 
 @media (min-width: 769px) {
-    .marquee {
-        transform: skewY(-6deg);
-      }
+  .marquee {
+    transform: skewY(-6deg);
   }
-  @media (max-width: 568px) {
-    .marquee {
-      transform: skewY(-18deg);
-    }
+}
+@media (max-width: 568px) {
+  .marquee {
+    transform: skewY(-18deg);
   }
-  /* @media (max-width: 320px) {
+}
+/* @media (max-width: 320px) {
     .marquee {
       transform: skewY(-10deg); 
     }
   } */
-
 
 .marquee__group {
   flex-shrink: 0;

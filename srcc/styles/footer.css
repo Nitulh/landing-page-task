@@ -1,0 +1,80 @@
+/* Footer container */
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px 100px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+}
+
+/* Individual footer items */
+.footer-item {
+  padding: 20px;
+}
+
+/* Header styling */
+.footer-item h3,
+.footer-item h4 {
+  font-size: 24px;
+  color: #f77f00;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* Link styling */
+.footer-item a {
+  color: #f77f00;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+.footer-item ul {
+  list-style-type: none;
+}
+
+.footer-item a:hover {
+  color: #ff9900;
+}
+
+/* Input and button styling */
+.footer-item input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-item input[type="submit"] {
+  background-color: #f77f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.footer-item input[type="submit"]:hover {
+  background-color: #ff9900;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .footer-container {
+   
+    grid-template-columns: 1fr;
+  
+  }
+  
+}

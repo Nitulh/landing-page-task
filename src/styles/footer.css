@@ -3,15 +3,17 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
-  padding: 20px 100px;
-  background-color: #222;
+  padding: 40px 100px;
+  background-color: #333;
   color: #fff;
   text-align: center;
+  border-top: 2px solid #f77f00;
 }
 
 /* Individual footer items */
 .footer-item {
   padding: 20px;
+  text-align: left;
 }
 
 /* Header styling */
@@ -19,20 +21,41 @@
 .footer-item h4 {
   font-size: 24px;
   color: #f77f00;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+.footer-item .logo {
+  font-size: 50px;
+  color: #d35106;
+  font-family: "Arial", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-social {
+  font-size: 25px;
+  color: orange;
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
 }
 
 /* Link styling */
 .footer-item a {
   color: #f77f00;
+  font-size: 15px;
   text-decoration: none;
   transition: color 0.3s;
   font-weight: bold;
 }
+
 .footer-item ul {
   list-style-type: none;
+  padding: 0;
+}
+
+.footer-item ul li {
+  padding-bottom: 10px;
 }
 
 .footer-item a:hover {
@@ -42,39 +65,72 @@
 /* Input and button styling */
 .footer-item input[type="email"] {
   width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
+  padding: 12px;
+  border: 2px solid #f77f00;
+  border-radius: 8px;
   outline: none;
-  margin-bottom: 10px;
-  font-size: 16px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #222;
+  padding-left: 10px;
 }
 
 .footer-item input[type="submit"] {
   background-color: #f77f00;
   color: #fff;
-  padding: 10px 20px;
+  padding: 14px 28px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   transition: background-color 0.3s;
   font-weight: bold;
 }
 
 .footer-item input[type="submit"]:hover {
   background-color: #ff9900;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
-
-
-
+/* Responsive layout */
 @media (max-width: 768px) {
   .footer-container {
-   
     grid-template-columns: 1fr;
-  
+    padding: 40px 20px;
   }
-  
+}
+
+/* Adjustments for perfect alignment and spacing */
+.footer-item p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.footer-item .logo-p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+.footer-item {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
+.footer-item p strong {
+  font-weight: bold;
+}
+
+/* Additional adjustments for newsletter form */
+.footer-item form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item input[type="submit"] {
+  align-self: flex-start;
 }

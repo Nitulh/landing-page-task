@@ -1,5 +1,12 @@
 import "../styles/services.css";
-import { GiBriefcase, GiBinoculars, GiCheckedShield, GiSun, GiShop, GiSnowflake1 } from "react-icons/gi";
+import {
+  GiBriefcase,
+  GiBinoculars,
+  GiCheckedShield,
+  GiSun,
+  GiShop,
+  GiSnowflake1,
+} from "react-icons/gi";
 import { Fade } from "react-reveal"; // Import the Fade component
 
 const Service = () => {
@@ -7,17 +14,19 @@ const Service = () => {
     <section id="services">
       <div className="container" data-aos="fade-up">
         <header className="section-header-serv wow fadeInUp">
-          <h3>Services</h3>
+          <h3>Features</h3>
           <p>
-            Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
+            Laudem latine persequeris id sed, ex fabulas delectus quo.<br/> No vel
             partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei
-            ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno
+            ubique vivendum pro.<br/> At ius nisl accusam lorenta zanos paradigno
             tridexa panatarel.
           </p>
         </header>
 
-        <div className="row">
-          <Fade left cascade> {/* Wrap your content with Fade and specify the animation */}
+        <div className="row-serv">
+          <Fade left cascade>
+            {" "}
+            {/* Wrap your content with Fade and specify the animation */}
             <div
               className="col-lg-4 col-md-6 box-serv"
               data-aos="fade-up"
@@ -30,8 +39,8 @@ const Service = () => {
                 <a href="">Lorem Ipsum</a>
               </h4>
               <p className="description-serv">
-                Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                excepturi sint occaecati cupiditate non provident
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi sint occaecati cupiditate non provident
               </p>
             </div>
             <div
@@ -67,7 +76,9 @@ const Service = () => {
               </p>
             </div>
           </Fade>
-          <Fade right cascade> {/* Wrap your content with Fade and specify the animation */}
+          <Fade right cascade>
+            {" "}
+            {/* Wrap your content with Fade and specify the animation */}
             <div
               className="col-lg-4 col-md-6 box-serv"
               data-aos="fade-up"
@@ -80,8 +91,8 @@ const Service = () => {
                 <a href="">Magni Dolores</a>
               </h4>
               <p className="description-serv">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                officia deserunt mollit anim id est laborum
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum
               </p>
             </div>
             <div

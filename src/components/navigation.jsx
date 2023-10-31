@@ -53,7 +53,12 @@ const Navigation = () => {
       </button>
       <ul className={`nav-links ${showMenu ? "show" : ""}`}>
         <li>
-          <Link to="section1" smooth={true} duration={500} className="pointer-cursor ">
+          <Link
+            to="section1"
+            smooth={true}
+            duration={500}
+            className="pointer-cursor"
+          >
             Home
           </Link>
         </li>

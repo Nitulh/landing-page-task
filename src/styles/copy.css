@@ -1,0 +1,14 @@
+/* Copyright Footer */
+.copyright-footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.copyright-footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Add any additional styling you prefer for the footer */

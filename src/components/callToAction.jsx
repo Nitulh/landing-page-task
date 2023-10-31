@@ -1,6 +1,5 @@
-
-import { Fade } from 'react-reveal'; // Import the Fade component
-import '../styles/callToAction.css';
+import { Fade } from "react-reveal"; // Import the Fade component
+import "../styles/callToAction.css";
 
 const CallToAction = () => {
   return (
@@ -12,9 +11,10 @@ const CallToAction = () => {
         </Fade>
         <Fade bottom delay={200}>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
           </p>
         </Fade>
         <Fade bottom delay={400}>

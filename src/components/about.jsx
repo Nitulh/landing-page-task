@@ -2,24 +2,18 @@ import "../styles/about.css";
 import "../styles/empty.css";
 
 const About = () => {
-
-  
   return (
     <>
-    <div className="hempty">
-      <header className="empty">
-        <div className="emptybox">
- <div className="card">
-  <div className="img-wrapper">
-
-
-  </div>
-</div>
-
-        </div>
-      </header>
-    </div>
-    {/* <div className="about">
+      <div className="hempty">
+        <header className="empty">
+          <div className="emptybox">
+            <div className="card">
+              <div className="img-wrapper"></div>
+            </div>
+          </div>
+        </header>
+      </div>
+      {/* <div className="about">
   <section className="section1">
     <div className="container-about">
      
@@ -43,8 +37,6 @@ const About = () => {
 
 </div> */}
     </>
-
-   
   );
 };
 

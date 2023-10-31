@@ -1,7 +1,6 @@
+import "../styles/socket.css";
 
-import '../styles/socket.css';
-
-function Cube () {
+function Cube() {
   return (
     <div className="cube">
       <header className="headercube">
@@ -19,23 +18,17 @@ function Cube () {
         <div className="feature">
           <img src="feature-image-1.jpg" alt="Feature 1" />
           <h3>Feature 1</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className="feature">
           <img src="feature-image-2.jpg" alt="Feature 2" />
           <h3>Feature 2</h3>
-          <p>
-            Fusce vel dui nec eros volutpat varius.
-          </p>
+          <p>Fusce vel dui nec eros volutpat varius.</p>
         </div>
         <div className="feature">
           <img src="feature-image-3.jpg" alt="Feature 3" />
           <h3>Feature 3</h3>
-          <p>
-            Phasellus dignissim neque id eros ultricies.
-          </p>
+          <p>Phasellus dignissim neque id eros ultricies.</p>
         </div>
       </section>
 
@@ -64,7 +57,9 @@ function Cube () {
 
       <section className="contact">
         <h2>Contact Us</h2>
-        <a href="#" className="cta-button cta-button-bottom">Get Started</a>
+        <a href="#" className="cta-button cta-button-bottom">
+          Get Started
+        </a>
       </section>
     </div>
   );
