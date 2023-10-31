@@ -1,4 +1,5 @@
-import "../styles/services.css";
+// Import necessary styles and components for the 'Features' section
+import "../styles/services.css"; // Import CSS styles
 import {
   GiBriefcase,
   GiBinoculars,
@@ -6,38 +7,46 @@ import {
   GiSun,
   GiShop,
   GiSnowflake1,
-} from "react-icons/gi";
-import { Fade } from "react-reveal"; // Import the Fade component
+} from "react-icons/gi"; // Import icons from the 'react-icons/gi' library
+import { Fade } from "react-reveal"; // Import the 'Fade' component from 'react-reveal' for animations
 
+// Define the 'Service' component
 const Service = () => {
   return (
+      // Create a section with the ID 'services'
     <section id="services">
       <div className="container" data-aos="fade-up">
+               {/* Header for the 'Service' section */}
         <header className="section-header-serv wow fadeInUp">
           <h3>Features</h3>
+                  {/* Description text */}
           <p>
-            Laudem latine persequeris id sed, ex fabulas delectus quo.<br/> No vel
-            partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei
-            ubique vivendum pro.<br/> At ius nisl accusam lorenta zanos paradigno
-            tridexa panatarel.
+            Laudem latine persequeris id sed, ex fabulas delectus quo.
+            <br /> No vel partiendo abhorreant vituperatoribus, ad pro quaestio
+            laboramus. Ei ubique vivendum pro.
+            <br /> At ius nisl accusam lorenta zanos paradigno tridexa
+            panatarel.
           </p>
         </header>
-
+    {/* 'row-serv' contains service boxes */}
         <div className="row-serv">
+                  {/* Left-aligned animations for service boxes */}
           <Fade left cascade>
             {" "}
             {/* Wrap your content with Fade and specify the animation */}
+                        {/* Service Box 1 */}
             <div
               className="col-lg-4 col-md-6 box-serv"
               data-aos="fade-up"
               data-aos-delay="100"
-            >
+            > {/* Display an icon */}
               <div className="icon-serv">
                 <GiBinoculars />
               </div>
               <h4 className="title-serv">
-                <a href="">Lorem Ipsum</a>
+                <a href="">Lorem Ipsum</a>{/* Service title with a link */}
               </h4>
+                       {/* Service description */}
               <p className="description-serv">
                 Voluptatum deleniti atque corrupti quos dolores et quas
                 molestias excepturi sint occaecati cupiditate non provident

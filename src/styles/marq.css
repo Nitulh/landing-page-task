@@ -37,11 +37,7 @@
     transform: skewY(-18deg);
   }
 }
-/* @media (max-width: 320px) {
-    .marquee {
-      transform: skewY(-10deg); 
-    }
-  } */
+
 
 .marquee__group {
   flex-shrink: 0;

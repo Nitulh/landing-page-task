@@ -1,3 +1,4 @@
+// Import necessary styles and components for the 'contact' section
 import "../styles/contact.css";
 import { BiGlobe, BiPhone, BiEnvelope } from "react-icons/bi";
 const Contact = () => {

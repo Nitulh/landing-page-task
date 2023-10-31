@@ -1,3 +1,4 @@
+// Import necessary styles and components for the 'Pricing' section
 import "../styles/pricing.css";
 import Hexa from "./hexa";
 
@@ -32,20 +33,7 @@ const Pricing = () => {
         <div className="hexa-two">
           <Hexa />
         </div>
-        {/* 
-          {pricingData.map((item, index) => (
-            <div className="pricing-item" key={index}>
-              <h4 className="plan">{item.plan}</h4>
-              <p className="price">{item.price}/month</p>
-              <ul className="features">
-                {item.features.map((feature, i) => (
-                  <li key={i}>{feature}</li>
-                ))}
-              </ul>
-              <button className="btn-price">Get Started</button>
-            </div>
-          ))}
-        </div> */}
+      
 
         <div className="pricing-container">
           {pricingData.map((item, index) => (
@@ -81,36 +69,7 @@ const Pricing = () => {
                       <p>{feature}</p>
                     </li>
                   ))}
-                  {/* <li className="list-prc">
-        <span>
-          <svg aria-hidden="true" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4.5 12.75l6 6 9-13.5" strokeLinejoin="round" strokeLinecap="round" />
-          </svg>
-        </span>
-        <p>
-          100+ components
-        </p>
-      </li>
-      <li className="list-prc">
-        <span>
-          <svg aria-hidden="true" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4.5 12.75l6 6 9-13.5" strokeLinejoin="round" strokeLinecap="round" />
-          </svg>
-        </span>
-        <p>
-          2 month free updates
-        </p>
-      </li>
-      <li className="list-prc">
-        <span>
-          <svg aria-hidden="true" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4.5 12.75l6 6 9-13.5" strokeLinejoin="round" strokeLinecap="round" />
-          </svg>
-        </span>
-        <p>
-          Life time technical support
-        </p>
-      </li> */}
+             
                 </ul>
               </div>
               <div className="button-container">

@@ -5,7 +5,7 @@ html {
 .hhead {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  /*font-size:  16px;*/
+
   line-height: 1.7;
   color: #777777;
 
@@ -22,7 +22,7 @@ html {
     url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1140&q=80);
   background-size: cover;
   background-position: top;
-  /* clip-path: polygon( 0 0, 100% 0, 100% 80%, 0 100%); */
+  
   position: relative;
 }
 

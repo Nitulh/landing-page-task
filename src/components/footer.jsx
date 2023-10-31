@@ -1,3 +1,4 @@
+// Import necessary styles and components for the 'Footer' section
 import "../styles/footer.css";
 import { BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
 

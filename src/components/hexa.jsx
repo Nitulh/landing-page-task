@@ -1,3 +1,4 @@
+// Import necessary styles and components for the 'pentagon animation' section
 import "../styles/hexa.css";
 
 const Hexa = () => {

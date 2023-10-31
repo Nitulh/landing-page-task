@@ -1,3 +1,4 @@
+// Import necessary styles and components for the 'copyright' section
 import "../styles/copy.css";
 
 const Copy = () => {

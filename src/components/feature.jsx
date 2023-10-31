@@ -1,3 +1,4 @@
+// Import necessary styles and components for the '3cardFeature' section
 import "../styles/feature.css";
 import {
   GiMushroomsCluster,

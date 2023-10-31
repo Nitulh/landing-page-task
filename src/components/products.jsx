@@ -1,9 +1,12 @@
-import "../styles/products.css";
-import One from "/images/1.avif";
-import Two from "/images/2.avif";
-import Three from "/images/3.avif";
-import { Fade } from "react-reveal";
+// Import necessary styles, images, and components for the 'Portfolio' section
+import "../styles/products.css"; // Import CSS styles
+import One from "/images/1.avif";// Import image One
+import Two from "/images/2.avif"; // Import image Two
+import Three from "/images/3.avif";// Import image Three
+import { Fade } from "react-reveal"; // Import the 'Fade' component from 'react-reveal' for animations
 
+
+// Define the 'Portfolio' component
 const Portfolio = () => {
   // Dummy product data
   const products = [
@@ -65,12 +68,14 @@ const Portfolio = () => {
   ];
 
   return (
+        // Create a section with the ID 'portfolio' and a background color
     <section id="portfolio" className="section-bg">
       <div className="container" data-aos="fade-up">
+           {/* Header for the 'Portfolio' section */}
         <header className="section-header">
           <h3 className="product-title">Our Products</h3>
         </header>
-
+     {/* Filter options for product categories */}
         <ul id="portfolio-flters">
           <li data-filter="*" className="filter-active">
             All
@@ -79,7 +84,7 @@ const Portfolio = () => {
           <li data-filter=".filter-web">Web</li>
           {/* Add more filter categories if needed */}
         </ul>
-
+     {/* Display product items in a grid layout */}
         <div
           className="row portfolio-container"
           data-aos="fade-up"
@@ -106,17 +111,17 @@ const Portfolio = () => {
                       data-title={product.title}
                       className="link-preview"
                     >
-                      <i className="bi bi-plus"></i>
+                      <i className="bi bi-plus"></i>{/* Display a plus icon for image preview */}
                     </a>
                     <a
                       href="portfolio-details.html"
                       className="link-details"
                       title="More Details"
                     >
-                      <i className="bi bi-link"></i>
+                      <i className="bi bi-link"></i>{/* Display a link icon for more details */}
                     </a>
                   </figure>
-
+   {/* Information about the product */}
                   <div className="portfolio-info">
                     <h4>
                       <a href="portfolio-details.html">{product.title}</a>
@@ -133,4 +138,5 @@ const Portfolio = () => {
   );
 };
 
+// Export the 'Portfolio' component
 export default Portfolio;

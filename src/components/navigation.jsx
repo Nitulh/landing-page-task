@@ -1,8 +1,9 @@
+// Import necessary styles and components for the 'Nav' section
 import { useEffect, useState } from "react";
 import "../styles/nav.css";
 import { BiLogoReact } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Link } from "react-scroll";
+import { Link } from "react-scroll"; 
 
 const Navigation = () => {
   const [showMenu, setShowMenu] = useState(false);

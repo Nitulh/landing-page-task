@@ -1,3 +1,4 @@
+// Import necessary styles and components for the 'About' section
 import { useEffect, useState } from "react";
 import "../styles/empty.css";
 import { GiChart, GiLightBulb, GiCalendar } from "react-icons/gi";
@@ -17,8 +18,7 @@ const Empty = () => {
       const scrollPosition = window.scrollY;
 
       // Define your desired scroll range values for each section (adjust as needed)
-      // const startRangeMission = 1800;
-      // const endRangeMission = 2000;
+      
       const startRangeMission = 400;
       const endRangeMission = 600;
       const startRangePlan = 600;

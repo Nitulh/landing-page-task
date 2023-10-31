@@ -1,3 +1,4 @@
+// Import necessary styles and components for the 'callToAction' section
 import { Fade } from "react-reveal"; // Import the Fade component
 import "../styles/callToAction.css";
 

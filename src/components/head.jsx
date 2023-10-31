@@ -1,3 +1,4 @@
+// Import necessary styles and components for the 'hero section' section
 import "../styles/head.css";
 
 const Head = () => {
