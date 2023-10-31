@@ -3,9 +3,11 @@
 Welcome to my project! In this repository, I've created a responsive landing page using ReactJS, consisting of a minimum of eight sections, each offering specific content. Additionally, the landing page includes a navigation bar and a footer for easy navigation and information access. The objective of this project is to showcase our ability to implement React components, create animations, and integrate a slider in the design.
 
 Project Overview
+
 This landing page is designed to be both visually appealing and user-friendly. It provides visitors with a seamless browsing experience, no matter the device they are using, be it desktop, tablet, or mobile.
 
 Key Features
+
 -ReactJS: I've used ReactJS, a powerful JavaScript library, to build this landing page. React's component-based architecture allows for the creation of modular and reusable UI elements.
 
 -Responsive Design: My landing page is optimized for various screen sizes, ensuring that it looks and functions well on desktops, tablets, and mobile devices.
